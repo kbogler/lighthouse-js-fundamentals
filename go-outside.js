@@ -1,11 +1,5 @@
-var temperature = 12;
-
-if (temperature < 0) {
-  console.log("Make sure you pick out a scarf!");
-} else if (temperature < 15) {
-  console.log("Short sleeves won't cut it!");
-} else {
-  console.log("Short sleeves are fine.");
+function areMultiples(bigNumber, smallNumber) {
+  return bigNumber % smallNumber === 0;
 }
 
-console.log("Now you're ready to go outside!");
+console.log(areMultiples(15, 4));
